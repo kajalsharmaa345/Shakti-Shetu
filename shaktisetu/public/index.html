@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="hi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ShaktiSetu - A Bridge to Safety</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head><body>
+<div id="shell">
+
+<div id="splash" class="screen on"><img class="logo-art" src="img/logo.png" alt="ShaktiSetu logo"><img class="wordmark" src="img/wordmark.png" alt="ShaktiSetu"><div class="tag" style="margin-top:10px">A bridge to safety</div>
+<div class="wbtns"><button class="btn" id="wsin">SIGN IN</button><button class="btn out" id="wsup">SIGN UP</button></div></div>
+
+<div id="auth" class="screen"><button class="backb" id="backw">← Back</button>
+<div class="brand"><img class="wordmark sm" src="img/wordmark.png" alt="ShaktiSetu"><div class="tag" style="color:var(--ink);font-weight:500;font-size:13px">A Bridge to Safety</div></div>
+<div id="loginf"><h2 style="text-align:center;font-weight:400;font-size:30px;margin:26px 0 22px;color:var(--txt)">Login into account</h2>
+<input id="le" type="email" placeholder="E-mail" autocomplete="email"><input id="lp" type="password" placeholder="Password" autocomplete="current-password">
+<div class="aerr" id="aerr1" role="alert"></div><button class="btn" id="lgo">CONTINUE</button>
+<div style="text-align:right"><button class="link" id="forgot">Forgot Password?</button></div>
+<div style="text-align:center"><button class="link" id="tosu">Don't have an account? Sign Up</button></div>
+<div id="gbtn1" class="gwrap"></div><button class="btn gfb" id="g1"><svg width="22" height="22" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg> Continue with Google</button></div>
+<div id="signf" style="display:none"><h2 style="text-align:center;font-weight:400;font-size:30px;margin:26px 0 22px;color:var(--txt)">Create account</h2>
+<input id="sn" placeholder="Full Name" autocomplete="name"><input id="se" type="email" placeholder="E-mail" autocomplete="email" inputmode="email"><input id="sp" type="tel" placeholder="Phone Number" autocomplete="tel" inputmode="tel"><input id="sw" type="password" placeholder="Password (min 6)" autocomplete="new-password"><div class="hint" id="pwhint">Use at least 6 characters.</div><input id="sc" type="password" placeholder="Confirm Password" autocomplete="new-password">
+<label style="display:flex;gap:10px;align-items:center;justify-content:center;color:var(--ink);margin-bottom:14px;font-size:14px"><input id="stc" type="checkbox"> I agree to <a href="#" id="tcl" style="color:#d0021b">Terms &amp; Conditions</a></label>
+<div class="aerr" id="aerr2" role="alert"></div><button class="btn" id="sgo">CREATE ACCOUNT</button>
+<div style="text-align:center"><button class="link" id="tosi">Already have an account? Sign In</button></div>
+<div id="gbtn2" class="gwrap"></div><button class="btn gfb" id="g2"><svg width="22" height="22" viewBox="0 0 48 48" aria-hidden="true"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg> Sign up with Google</button></div></div>
+
+<div id="app" class="screen" style="padding:0;overflow:hidden">
+<section class="screen on" id="p-home"><div style="display:flex;justify-content:space-between;align-items:flex-start"><div><span class="script" style="font-size:24px;color:var(--ink)">Shakti Setu</span><div style="color:var(--mute);font-size:14px" id="wel">Welcome back, Stay Secure</div></div><button class="pill" id="bell" aria-label="Alerts">🔔</button></div>
+<h1 style="text-align:center;margin-top:26px;font-size:26px;color:var(--txt)">You’re <span style="color:var(--rose)">Safe</span> Here</h1>
+<div class="sos-wrap"><div class="sos-halo"><button class="sos" id="sosb" aria-label="SOS"><span style="font-size:40px">🛡️</span>SOS</button></div></div>
+<p style="text-align:center;color:var(--mute);margin:0 0 30px">Emergency assistance is just a tap away</p>
+<h3 style="color:var(--txt);margin:0 0 12px">Quick Help</h3>
+<div class="grid"><a class="qh" href="tel:108"><span class="ic" style="background:#ecdcef">💜</span>Ambulance</a><a class="qh" href="tel:100"><span class="ic" style="background:#fde8d3">🛡️</span>Police</a><a class="qh" href="tel:1091"><span class="ic" style="background:#f9d5e2">👩</span>Women Safety</a><button class="qh" id="qfake"><span class="ic" style="background:#dbe8f9">📞</span>Fake Call</button></div></section>
+
+<section class="screen" id="p-ev"><div style="display:flex;justify-content:space-between"><h1>Safety Evidence</h1><button class="pill" id="evdel" aria-label="Delete all">🗑️</button></div>
+<h3 style="color:#444">Captured Photos</h3><div class="card" id="photos"></div><h3 style="color:#444">Audio Recordings</h3><div class="card" id="audios"></div></section>
+
+<section class="screen" id="p-con"><h1>Emergency Contacts</h1><div id="clist"></div><button class="btn dark" id="cadd" style="margin-top:20px">👥 Add New Member</button></section>
+
+<section class="screen" id="p-fake"><div style="text-align:center"><span class="script" style="font-size:30px;color:var(--ink)">Fake Call</span><div style="color:var(--mute)">Discreetly escape uncomfortable situations</div></div>
+<div class="card" style="text-align:center;padding:30px 18px;margin:22px 0;border-radius:32px"><div class="avatar"><i></i></div><h2 id="fn" style="font-size:26px"></h2><div id="fnum" style="color:var(--mute);margin:4px 0 14px"></div><button class="btn dark" id="fedit" style="display:inline-block;width:auto;padding:10px 20px;font-size:13px">⚙ Edit Identity</button></div>
+<h3 style="color:var(--txt)">Select Delay</h3><div style="display:flex;gap:8px;flex-wrap:wrap" id="delays"></div>
+<button class="btn dark" id="fsched" style="margin-top:36px;font-size:17px">📞 Schedule Fake Call</button><p style="text-align:center;color:var(--mute);font-size:13px">A realistic call screen will be shown</p></section>
+
+<section class="screen" id="p-set"><h1>Settings</h1>
+<p style="color:var(--mute);margin:20px 0 8px">Safety Controls</p>
+<div class="row" style="cursor:default"><span class="ic">🛡️</span><div><b>Shake Detection</b><small>Trigger SOS by shaking your phone</small></div><div class="sw" id="swshake" role="switch" tabindex="0"></div></div>
+<div class="row" style="cursor:default"><span class="ic">🔊</span><div><b>Voice Command</b><small>Say "Help!" to trigger SOS</small></div><div class="sw" id="swvoice" role="switch" tabindex="0"></div></div>
+<p style="color:var(--mute);margin:20px 0 8px">Account &amp; Security</p>
+<div class="row" id="sprof"><span class="ic">👤</span><b>My Profile</b></div><div class="row" id="spin"><span class="ic">🔒</span><b>Change SOS PIN</b></div><div class="row" id="spw"><span class="ic">✉️</span><b>Reset Password</b></div>
+<p style="color:var(--mute);margin:20px 0 8px">Information</p>
+<div class="row" id="stc2"><span class="ic">📄</span><b>Terms &amp; Conditions</b></div><div class="row" id="slog"><span class="ic">🚪</span><b>Log out</b></div></section>
+
+<div class="nav" role="navigation" aria-label="Main">
+<button data-p="ev" aria-label="Evidence"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span>Evidence</span></button>
+<button data-p="con" aria-label="Contacts"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Contacts</span></button>
+<button class="mid" data-p="home" aria-label="Home (SOS)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><text x="12" y="15.5" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">?</text></svg></button>
+<button data-p="fake" aria-label="Fake call"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Fake Call</span></button>
+<button data-p="set" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/></svg><span>Settings</span></button></div>
+</div>
+</div>
+
+<div id="sosov" class="ov"><div style="font-size:60px">🚨</div><h1 style="color:#fff;font-size:32px;margin-bottom:4px">SOS ACTIVATED</h1><div id="sostimer" aria-live="off" style="font-size:46px;font-weight:700;letter-spacing:2px;margin:4px 0 10px">00:00</div><p id="sosinfo" style="max-width:340px">Getting your location… recording has started.</p>
+<div style="width:100%;max-width:340px"><div id="sendl"></div><button class="sosbtn o" id="mute">🔊 Mute siren</button><button class="sosbtn" id="dismiss">Dismiss Emergency</button></div></div>
+<div id="callov" class="ov"><div class="avatar" style="background:#333;border-color:#555"><i></i></div><h1 id="cn" style="color:#fff;font-size:32px"></h1><div id="cs" style="color:#aaa;margin:6px 0 90px">Incoming call…</div>
+<div style="display:flex;gap:70px"><button class="pill" id="cdec" style="background:#e53935;color:#fff;width:70px;height:70px;border-radius:50%;font-size:26px">✖</button><button class="pill" id="cacc" style="background:#2e9e4f;color:#fff;width:70px;height:70px;border-radius:50%;font-size:26px">📞</button></div></div>
+<div class="mo" id="mo"><div id="mob"></div></div><div class="toast" id="toast"></div>
+<script src="config.js"></script>
+<script src="local.js"></script>
+<script src="app.js"></script>
+</body></html>
